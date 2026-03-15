@@ -19,7 +19,7 @@
 
 ## Overview
 
-Mind Mentor is an intelligent study companion that leverages AI to transform the learning experience. It combines personalized study planning, resource curation, and interactive assistance to help students achieve their academic goals efficiently.
+Evolve-Ed is an intelligent study companion that leverages AI to transform the learning experience. It combines personalized study planning, resource curation, and interactive assistance to help students achieve their academic goals efficiently.
 
 ## Key Features
 
