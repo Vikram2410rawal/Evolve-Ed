@@ -8,9 +8,6 @@
 - [API Integration](#api-integration)
 - [Usage Guide](#usage-guide)
 - [Contributing](#contributing)
-- [License](#license)
-
-## Demo
 
 
 
@@ -105,49 +102,7 @@ Evolve-Ed is an intelligent study companion that leverages AI to transform the l
   - Rate limiting
   - Input validation
 
-## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/KartikLabhshetwar/mind-mentor
-cd mind-mentor
-```
-
-2. Set up environment variables:
-
-Create `.env` file in the root directory with the following variables:
-
-```env
-NEXTAUTH_SECRET=your-secret-key
-MONGODB_URI=your-mongodb-uri
-NEXTAUTH_URL=http://localhost:3000
-EXPRESS_BACKEND_URL=http://backend:5000
-NEXT_PUBLIC_POSTHOG_KEY=your-posthog-key
-NEXT_PUBLIC_POSTHOG_HOST=your-posthog-host
-NEXT_PUBLIC_API_URL=http://backend:5000
-API_URL=http://backend:5000
-GROQ_API_KEY=your-groq-api-key
-GROQ_API_KEY_RAG=your-groq-rag-api-key
-TAVILY_API_KEY=your-tavily-api-key
-HUGGINGFACE_API_KEY=your-huggingface-api-key
-```
-
-3. Build with Docker Compose:
-
-```bash
-docker compose build
-```
-
-4. Run with Docker Compose:
-
-```bash
-docker compose up -d
-```
-
-The application will be available at:
-
-- Frontend: http://localhost:3000
-- Backend: http://localhost:5000
 
 ## API Integration
 
@@ -192,20 +147,3 @@ Used for:
 4. Navigate through the document while chatting
 5. Access chat history for previous conversations
 
-## Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to your branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Built with 💡 by Kartik Labhshetwar
